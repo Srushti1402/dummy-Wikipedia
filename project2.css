@@ -1,0 +1,345 @@
+
+body{
+	margin:4px;	
+}
+
+@media screen and (max-height:400px)
+{
+body{
+	font-size:3px;
+}
+}
+
+@media screen and (max-height:600px)
+{
+body{
+font-size:2px;
+}
+}
+
+@media screen and (max-height:750px)
+{
+body{
+font-size:3px;
+}
+}
+
+@media screen and (max-width:600px)
+{
+body{
+font-size:5px;
+}
+}
+
+
+
+#fontt
+{
+	font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+}
+
+#center{
+	margin-top:55px;
+	margin-bottom:5px;
+	text-align:center;
+}
+	
+.logoo{
+	font-size:36px;
+	font-family:Times;
+}
+
+ .flex img{
+	 position:static;
+	 top:500px;
+	margin:60px;
+	width:215px;
+	height:215px;
+}
+
+main article{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	
+}
+
+strong{
+	font-weight:700;
+}
+
+
+.flex .list{
+	list-style-type:none;
+	font-size:16px;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+	
+}
+
+.flex .list li{
+	color:#36c;
+	margin:15px;
+	padding:6px;
+	text-decoration:none;
+}
+
+.colour{
+	color:#4169E1;
+}
+
+
+.small{
+	
+	padding:20px 0;
+	font-size:13px;
+
+}
+
+#search{
+	border:1px;
+	border-color:#a2a9b1;
+	border-style:solid;
+	height:43.2px;
+	width:400px;
+}
+
+#searchicon{
+	height:43.2px;
+	width:50px;
+	border:2px;
+	border-color:#36c;;
+	border-style:solid;
+	background-color:#36c;
+	
+}
+
+#lang{
+	margin:50px;
+	padding:50px; 
+	width:400px;
+	height:10px;
+	
+}
+
+#arrange{
+
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 16px 0;
+}
+
+.button{
+	padding:20px;
+	margin-top:40px;
+	margin-bottom:8px;
+	width:30%;
+	height:20px;
+	text-align:center;
+	color: #36c;
+    font-size: 14px;
+    font-weight: 700;
+	background-color:white;
+	outline: 16px solid #fff;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+}
+
+	
+
+#mydiv{
+	width:80%;
+	padding:30px;
+	background-color:#F5F5F5;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div li
+{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+
+
+
+
+.heading{
+	padding:0px;
+	margin:2px 0;
+	text-align:center;
+	font-size:12px;
+}
+
+#langid{
+	list-style-position:outside;
+	list-style-type:none;
+	font-size:14px;
+}
+
+.langclass{
+
+	margin:2px;
+	
+	padding:0;
+}
+
+.langclass li{
+	display:inline-block;
+	width:12%;
+	margin:1px 0;
+	padding-bottom:1px 0;
+	vertical-align:top;
+	color:#36c;
+}
+
+.langclass li:before{
+	content:'';
+	
+	margin-right:5px;
+	
+}
+
+#langid1{
+	list-style-type:none;
+	list-style-position:outside;
+	font-size:14px;
+}
+
+#langid2{
+	list-style-type:none;
+	list-style-position:outside;
+	font-size:14px;
+}
+
+#langid3{
+	list-style-type:none;
+	list-style-position:outside;
+	font-size:14px;
+}
+#langid4{
+	list-style-type:none;
+	list-style-position:outside;
+	font-size:14px;
+}
+
+#mydiv div{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+
+
+footer article{
+		display:flex;
+	flex-flow:row wrap;
+}
+
+footer li article{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+  
+ #info{
+	list-style-type:none;
+	font-size:14px; 
+  
+  }
+  
+ .info2{
+	 text-decoration:none;
+	color:#54595d;
+	font-size:14px;
+	position:relative;
+	left:3px;
+ }
+ 
+  
+  #info>li>article>section>img{
+	position:relative;
+	width:63px;
+	height:50px;
+	margin:0 6px;
+	padding:4px;
+}
+
+#otherlist{
+	list-style-type:none;
+	font-size:14px;
+}
+
+.design{
+	overflow:auto;
+	margin:0;
+	padding:0;
+}
+
+.design li{
+	display:inline-block;
+	width:27%;
+	justify-content:center;
+	margin:4px;
+	padding:4px 20px 4px 30px;
+	vertical-align:top;
+}
+
+.design li:before{
+	content:'';
+	left:100px;
+	padding:5px;
+	margin-right:5px;
+	
+}
+
+
+	
+#otherlist>li>article>section>img{
+	position:relative;
+	width:63px;
+	height:50px;
+	margin:0 6px;
+	padding:4px;
+}
+
+
+
+.word{
+	
+    max-width: 65%;
+    vertical-align: middle;
+    white-space: normal;
+}
+.myword{
+	
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+	color:#36c;
+	 font-size: 14px;
+	 text-decoration:none;
+	 text-shadow:none;
+	}
+
+.do{
+	text-decoration:none;
+	color:#54595d;
+	font-size:12px;
+	position:relative;
+	left:3px;
+	max-width:30%;
+	max-height:3px;
+}
+
+
+#site-license {
+    margin: 0;
+    color: #54595d;
+    text-align: center;
+	font-size::12px;
+}
+
+.end{
+	display:inline;
+	justify-content:space-between;
+	font-size:12px;
+}
